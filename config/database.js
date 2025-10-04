@@ -1,3 +1,9 @@
+/* 
+Nome: Felipe de Oliveira Guimarães Bataglini
+RA: 2475421
+Turma: EC48B - C81
+*/
+
 // config/database.js
 const mongoose = require('mongoose');
 require('dotenv').config(); // Carrega as variáveis de ambiente

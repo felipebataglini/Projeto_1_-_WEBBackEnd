@@ -1,3 +1,9 @@
+/* 
+Nome: Felipe de Oliveira Guimarães Bataglini
+RA: 2475421
+Turma: EC48B - C81
+*/
+
 // models/produtoModel.js
 const mongoose = require('mongoose');
 

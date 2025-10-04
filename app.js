@@ -1,3 +1,9 @@
+/* 
+Nome: Felipe de Oliveira Guimarães Bataglini
+RA: 2475421
+Turma: EC48B - C81
+*/
+
 // app.js
 const http = require('http');
 const connectDB = require('./config/database');
