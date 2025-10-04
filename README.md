@@ -33,6 +33,10 @@ Execute o comando abaixo na pasta raiz do projeto para instalar as bibliotecas n
 ```sh
 npm install
 ```
+Caso o erro `Cannot find module 'dotenv'` ocorra, basta instalar a biblioteca na pasta raiz do projeto utilizando o comando abaixo.
+```sh
+npm install dotenv
+```
 
 ### 4. Configure as Variáveis de Ambiente
 Crie um arquivo chamado .env na raiz do projeto e adicione o seguinte conteúdo. Você pode alterar os valores se sua configuração for diferente.
