@@ -9,14 +9,14 @@ const fs = require('fs');
 
 class Logger {
   /**
-   * Registra um erro em error.log.
+   * Registra um erro em error.txt.
    * @param {Error} error - O objeto de erro a ser registrado.
    */
   static logError(error) {
     const timestamp = new Date().toISOString();
     const logMessage = `[${timestamp}] - ERROR: ${error.message}\nSTACK: ${error.stack}\n\n`;
 
-    fs.appendFile('error.log', logMessage, (err) => {
+    fs.appendFile('error.txt', logMessage, (err) => {
       if (err) {
         console.error('Falha CRÍTICA ao escrever no arquivo de log:', err);
       }
